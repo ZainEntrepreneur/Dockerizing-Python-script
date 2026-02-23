@@ -1,0 +1,40 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+
+# Data files (optional - uncomment if you want to exclude CSV files)
+# data/*.csv
+
+# Logs
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
